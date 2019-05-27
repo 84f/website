@@ -1,6 +1,10 @@
 * {
    font-family: 'Poppins', sans-serif;
-   background-color: yellow;
+   background-color: #28b4e2;
+}
+
+html {
+   background-color: #28b4e2;
 }
 
 a  {
