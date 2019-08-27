@@ -1,14 +1,67 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type = "text/css" href = "style.css" />
-<link rel="shortcut icon" type="image/png" href="favicon/png"/>
-    <head>
-        <title>josh's website | hi</title>
-    </head>
-    <body>
-        <audio controls loop>
-            <source src="music.mp3" type="audio/mp3">
-            can't play music because your browser is shit. sorry lol
-        </audio>
-        <a href="https://twitter.com/wydpoke"><img src="/image.png">
-    </body>
-</html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="author" content="wydpoke">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="bulma.min.css">
+
+		<style>
+			.button {
+				margin-top: 15px;
+			}
+
+			code {
+				background-color: #112031;
+				color: aqua;
+			}
+
+			.is-steam {
+				background-color: #001129;
+			}
+
+			.is-twitter {
+				background-color: #109fd8;
+			}	
+
+			.is-twitter:hover {
+				background-color: #2dc4ff;
+			}
+
+			.is-steam:hover {
+
+				background-color: #00133d;
+			}
+			.button, .button:hover {
+				border-color: transparent;
+				color: white;
+				transition: background-color 100ms;
+			}
+		</style>
+	</head>
+	<body>
+		<main class="is-full has-background-dark">
+			<section class="hero is-fullheight">
+				<div class="hero-body">
+					<div class="container has-text-centered has-text-white">
+						<h1 class="is-size-1 is-marginless">wydpoke</h1>
+						<p class="is-size-5 is-marginless">I do: <code id="typed">D</code></p>
+						<a href="https://steamcommunity.com/id/obeyxenoz" class="button is-steam">Steam</a>
+						<a href="twitter.com/wydpoke" class="button is-twitter">Twitter</a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script src="typed.js@2.0.9"></script>
+		<script>
+			let options = {
+				strings: ["Discord Bot Development", "Banger Tweets", "Web Development", "Discord Bot Development"],
+				typeSpeed: 40,
+				showCursor: false,
+				loop: true
+			}
+
+			new Typed("#typed", options);
+		</script>
+	
+</body></html>
