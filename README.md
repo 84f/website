@@ -1,1 +1,1 @@
-repository and host for my domain @ pokehng.xyz/main.html
+REAL WEBSITE @ getbruh.com/index.html
